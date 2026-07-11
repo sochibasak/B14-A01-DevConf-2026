@@ -40,39 +40,49 @@
     </section>
 
     <!-- SPEAKERS -->
-    <section class="speakers" id="speakers">
-        <h2>Meet the Speakers</h2>
+    <div id="speakers" class="speaker-container">
+        <h1>Meet the Speakers</h1>
 
         <div class="speakers-grid">
+
             <div class="speaker-card">
-                <div class="speaker-avatar"></div>
-                <span class="speaker-tag">AI / ML</span>
-                <h3>Andrej Karpathy</h3>
-                <p>Pretraining team, Anthropic</p>
+                <img src="./assets/images/andrej.png" alt="Speaker 1">
+                <div class="speaker-info">
+                    <span class="speaker-category">AI / ML</span>
+                    <span class="speaker-name">Andrej Karpathy</span>
+                    <span class="speaker-role">Pretraining team, Anthropic</span>
+                </div>
             </div>
 
             <div class="speaker-card">
-                <div class="speaker-avatar"></div>
-                <span class="speaker-tag">Cloud DevOps</span>
-                <h3>Demis Hassabis</h3>
-                <p>Co-Founder and CEO, Google DeepMind</p>
+                <img src="./assets/images/demis.png" alt="Speaker 2">
+                <div class="speaker-info">
+                    <span class="speaker-category">Cloud & DevOps</span>
+                    <span class="speaker-name">Demis Hassabis</span>
+                    <span class="speaker-role">Co-Founder and CEO, Google DeepMind</span>
+                </div>
             </div>
 
             <div class="speaker-card">
-                <div class="speaker-avatar"></div>
-                <span class="speaker-tag">Frontend</span>
-                <h3>Gary Marcus</h3>
-                <p>Staff Engineer, Vercel</p>
+                <img src="./assets/images/gary.png" alt="Speaker 3">
+                <div class="speaker-info">
+                    <span class="speaker-category">Frontend</span>
+                    <span class="speaker-name">Gary Marcus</span>
+                    <span class="speaker-role">Staff Engineer, Vercel</span>
+                </div>
             </div>
 
             <div class="speaker-card">
-                <div class="speaker-avatar"></div>
-                <span class="speaker-tag">Security</span>
-                <h3>Mustafa Suleyman</h3>
-                <p>CEO of Microsoft AI</p>
+                <img src="./assets/images/mustafa.png" alt="Speaker 4">
+                <div class="speaker-info">
+                    <span class="speaker-category">Security</span>
+                    <span class="speaker-name">Mustafa Suleyman</span>
+                    <span class="speaker-role">CEO of Microsoft AI</span>
+                </div>
             </div>
+
         </div>
-    </section>
+    </div>
 
     <!-- PRICING -->
     <section class="pricing" id="pricing">
@@ -88,11 +98,11 @@
                     <li>Access to all 3 conference days</li>
                     <li>48 curated technical talks</li>
                     <li>2 workshop sessions</li>
-                    <li>Networking lunch coffee breaks</li>
+                    <li>Networking & lunch coffee breaks</li>
                     <li>Conference swag bag</li>
                     <li>Digital recordings (30 days)</li>
                 </ul>
-                <button class="price-cta price-cta--two">Get Standard</button>
+                <button class="price-cta price-cta--one">Get Standard</button>
             </div>
 
             <div class="price-card price-card--featured">
@@ -101,7 +111,7 @@
                 <ul class="price-featured-list">
                     <li>Everything in Standard</li>
                     <li>Unlimited workshop access</li>
-                    <li>Speaker meet greet</li>
+                    <li>Speaker meet & greet</li>
                     <li>VIP networking dinner</li>
                     <li>Lifetime recording access</li>
                     <li>1-on-1 mentorship (30 min)</li>
@@ -128,24 +138,24 @@
 
     <!-- SIGNUP SECTION -->
     <section class="signup-section">
-<div id="login-box">
-    <div class="left-box">
-      <h1> Sign Up </h1>
-      <input type="text" name="username" placeholder="Username"/>
-      <input type="text" name="email" placeholder="Email" required/>
-      <input type="password" name="password" placeholder="Password" required/>
-      <input type="password" name="password2" placeholder="Retype Password"/>
-      <input type="submit" name="signup-button" value="Sign Up"/>
-    </div>
-    <div class="right-box">
-      <span class="signinwith">Sign in with</br>Social Network </span>
-      <button class="social facebook">Log in with Facebook</button>
-      <button class="social twitter">Log in with Twitter</button>
-      <button class="social google">Log in with Google</button>
-    
-    </div>
-    <div class="or">OR</div>
-  </div> 
+        <div id="login-box">
+            <div class="left-box">
+                <h1> Sign Up </h1>
+                <input type="text" name="username" placeholder="Username" />
+                <input type="text" name="email" placeholder="Email" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="password" name="password2" placeholder="Retype Password" />
+                <input type="submit" name="signup-button" value="Sign Up" />
+            </div>
+            <div class="right-box">
+                <span class="signinwith">Sign in with</br>Social Network </span>
+                <button class="social facebook">Log in with Facebook</button>
+                <button class="social twitter">Log in with X</button>
+                <button class="social google">Log in with Google</button>
+
+            </div>
+            <div class="or">OR</div>
+        </div>
     </section>
 
     <!-- FOOTER -->
