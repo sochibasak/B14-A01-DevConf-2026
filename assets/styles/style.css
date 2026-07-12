@@ -457,28 +457,22 @@ button.social {
 /* ===== FOOTER (Flexbox) ===== */
 .footer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 24px 60px;
     background: var(--color-dark);
     font-size: 13px;
     color: rgba(255, 255, 255, 0.4);
     min-height: 145px;
-    border-top: 3px solid #1D4ED8;
-    /* horizontal divider */
 }
 
-/* Logo + text wrapper */
-.footer-brand {
+/* Top row: logo left, links right */
+.footer-top {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin: 0;
+    justify-content: space-between;
 }
 
-.footer-brand img {
-    width: 100px;
-    height: 34px;
+.footer-logo img {
     border-radius: 8px;
     margin: 0;
 }
@@ -496,6 +490,19 @@ button.social {
 
 .footer-links a:hover {
     color: #ffffff;
+}
+
+/* Divider before bottom text */
+.footer-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 20px 0;
+}
+
+/* Bottom centered text */
+.footer-bottom {
+    text-align: center;
+    margin: 0;
 }
 
 /* ============================================= */
